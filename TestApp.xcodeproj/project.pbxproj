@@ -199,7 +199,7 @@
 		9F05651B1888CB38008C7C80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = JL;
+				CLASSPREFIX = JLT;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chris Lindsay";
 				TargetAttributes = {
