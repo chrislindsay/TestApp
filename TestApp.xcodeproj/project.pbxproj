@@ -22,6 +22,7 @@
 		9F05654B1888CB39008C7C80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F05652A1888CB38008C7C80 /* UIKit.framework */; };
 		9F0565531888CB39008C7C80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F0565511888CB39008C7C80 /* InfoPlist.strings */; };
 		9F0565551888CB39008C7C80 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0565541888CB39008C7C80 /* TestAppTests.m */; };
+		9F056560188902C6008C7C80 /* JLTTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05655F188902C6008C7C80 /* JLTTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		9F0565501888CB39008C7C80 /* TestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
 		9F0565521888CB39008C7C80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F0565541888CB39008C7C80 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
+		9F05655E188902C6008C7C80 /* JLTTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTTestClass.h; sourceTree = "<group>"; };
+		9F05655F188902C6008C7C80 /* JLTTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				9F05653F1888CB39008C7C80 /* JLViewController.m */,
 				9F0565411888CB39008C7C80 /* Images.xcassets */,
 				9F05652D1888CB38008C7C80 /* Supporting Files */,
+				9F05655E188902C6008C7C80 /* JLTTestClass.h */,
+				9F05655F188902C6008C7C80 /* JLTTestClass.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0565371888CB38008C7C80 /* JLAppDelegate.m in Sources */,
+				9F056560188902C6008C7C80 /* JLTTestClass.m in Sources */,
 				9F0565401888CB39008C7C80 /* JLViewController.m in Sources */,
 				9F0565331888CB38008C7C80 /* main.m in Sources */,
 			);
