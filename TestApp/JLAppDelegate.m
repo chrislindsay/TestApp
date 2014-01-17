@@ -8,7 +8,7 @@
 
 #import "JLAppDelegate.h"
 
-// testing
+
 
 @implementation JLAppDelegate
 
